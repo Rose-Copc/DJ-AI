@@ -56,7 +56,7 @@ function draw() {
         remove_decimals = floor(InNumberleftWristY);
         volume = remove_decimals/500;
         document.getElementById("volume").innerHTML = "Volume = " + volume;
-        song.setVolume(volume;)
+        song.setVolume(volume);
     }
 }
 
